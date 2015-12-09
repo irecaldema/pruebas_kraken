@@ -75,7 +75,7 @@
             <!-- description list -->
             <dl class="dl-horizontal">
                 <dd>
-                    <form id='formulario_login' class="form-horizontal" role="form" action='/' method='POST' name='formulario_login'>
+                    <form id='formulario_login' class="form-horizontal" role="form" action='/login' method='POST' name='formulario_login'>
                         <div  class="form-group">
                             
                             <!-- lo pide el kraken -->
@@ -110,8 +110,11 @@
             <!-- description list -->
             <dl class="dl-horizontal">
                 <dd>
-                    <form class="form-horizontal" action='/' method='POST' name='formulario_register'>
+                    <form class="form-horizontal" action='/register' method='POST' name='formulario_register'>
                         <div class="form-group">
+                            <!-- lo pide el kraken -->
+                            <input type="hidden" name="_csrf" value="{_csrf}">
+                            
                             <label class="col-sm-2 control-label" for="usuario">Usuario:</label>
                             <div class="col-sm-5">
                                 <input class="form-control" type='text' name='usuario'>
