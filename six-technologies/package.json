@@ -18,8 +18,8 @@
     "dust-makara-helpers": "^4.1.2",
     "express": "^4.12.2",
     "kraken-js": "^1.0.3",
+    "mailgun-js": "^0.7.7",
     "makara": "^2.0.3",
-    "md5": "^2.0.0",
     "mongodb": "^2.1.0",
     "mongoose": "^4.2.10",
     "requirejs": "^2.1.22"
